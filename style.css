@@ -1,0 +1,99 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff; 
+  color: #333; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 30px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #333; 
+}
+
+.container .image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.container header {
+  color: #333; 
+
+}
+
+.container p {
+  color: #333; 
+  max-width: 550px;
+  margin: 20px auto;
+}
+
+.container .time-content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.time-content .time {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #333;
+}
+
+
+
+.time .text {
+  text-transform: capitalize;
+}
+
+.input-box button {
+    margin-top: 10%;
+    padding: 10px 20px;
+    border: 1px solid #333; 
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #333; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .input-box button:hover {
+    color: #fff; 
+  }
+  
+  .male:hover {
+    background-color: #007bff; 
+  }
+  
+  .female:hover {
+    background-color: #ff007f; 
+  }
+  
+  .old-age:hover {
+    background-color: #6c4f2b; 
+  }
+  
+
